@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "one-plus-epsilon"
+version = "0.1.0"
+description = "Constructive polynomial checks for inverses near a 17th root of unity."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+one-plus-epsilon = "one_plus_epsilon.cli:main"
